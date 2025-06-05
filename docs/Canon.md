@@ -1,51 +1,49 @@
-📘 BITBURNER CANON
-Last Updated: BN1x2 Save Load – Snapshot 44 Augs
+# 📘 Bitburner Canon – Day-Zero
 
-📦 PLAYER SNAPSHOT
+_Last updated: BN1.3, Fresh Start, Snapshot 001_
 
-📚 CANONICAL SOURCES
+---
 
-API Reference: https://github.com/bitburner-official/bitburner-src/tree/dev/markdown
+## 🧬 Player State
 
-Official Scripts: https://github.com/bitburner-official/bitburner-scripts
+- BitNode: **SF1.3**
+- Augmentations: **None**
+- Game state: **Clean reset**
+- No corp, no gang, no INT stat, no memory carryover
+- Repository: **bitburner-day-zero**
 
-All scaffolding, design, and terminology validated against these sources unless overridden manually
+---
 
-==========================================
+## 🔒 Development Constraints
 
-🎮 DAY ZERO MODE – OPERATIONAL ASSUMPTIONS
+- ❌ No use of `ns.singularity.*` (SF4 locked)
+- ❌ No corp or gang logic
+- ❌ No INT-based calculations (SF5 locked)
+- ⚠️ Avoid deprecated APIs (e.g., `ns.nFormat` → use `ns.formatNumber`)
 
-These assumptions govern the next BitNode run (SF1.3) and all design decisions unless overridden.
+---
 
-📌 State
+## ⚙️ System Design Goals
 
-Source File: SF1.3 — no access to SF2+, SF3, SF4
+- Codex is modular and replaceable
+- Whiteboard is the only active dev surface
+- GitHub (bitburner-day-zero) is the source of truth
+- Robot writes code, Cody maintains it
+- You approve and deploy manually
 
-Augmentations: 0 installed
+---
 
-Game progress: Full reset (no rep, no corp, no INT stat)
+## 🔁 Operational Flow
 
-No special memory or node carryover will be assumed
+1. Robot generates new logic → Codex Whiteboard
+2. You review and approve
+3. Cody syncs to GitHub
+4. You paste into Bitburner manually
+5. Updates and scale evolve from Whiteboard
 
-Environment: This run is developed in a new repository (bitburner-day-zero), separate from prior scaffolding
+---
 
-🔒 Constraints
+## 📚 Reference
 
-No use of ns.singularity.* (SF4 gated)
-
-No corp or gang systems may be scripted or referenced
-
-No INT-based calculations (SF5 gated)
-
-Avoid all deprecated functions (e.g., ns.nFormat)
-
-🧰 Day Zero Design Goals
-
-All core scripts are provisional — nothing is sacred
-
-🧠 Human-Centric Notes
-
-Robot will generate supporting tools, handle constraints, and reduce friction
-
-Cody is actively linked to and indexing the GitHub repository (bitburner-day-zero), and is expected to reflect this canon in all logic evaluations
-
+- [Bitburner Source API](https://github.com/bitburner-official/bitburner-src)
+- [Official Scripts](https://github.com/bitburner-official/bitburner-scripts)
