@@ -53,9 +53,11 @@ Avoid all deprecated functions (e.g., ns.nFormat)
 
 🧰 Day Zero Design Goals
 
+Prioritize beating the game through active gameplay, not full-code automation
+
 Optimize earliest moments of a new node (first aug ASAP)
 
-Favor scripts that are modular, readable, and short
+Favor scripts that are readable and supportive, not dominant
 
 All core scripts are provisional — nothing is sacred
 
@@ -63,8 +65,11 @@ Emphasize manual faction work, contracts, Hacknet efficiency
 
 🧠 Human-Centric Notes
 
-Script design will lean toward understandability for a new coder
+Player is new to coding and will absorb passively while playing
 
-Robot will translate goals into scripts and manage constraints
+Script design should be accessible, non-intimidating, and helpful without overreaching
+
+Robot will generate supporting tools, handle constraints, and reduce friction
 
 Cody is actively linked to and indexing the GitHub repository (bitburner-day-zero), and is expected to reflect this canon in all logic evaluations
+
