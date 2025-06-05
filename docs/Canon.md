@@ -3,18 +3,6 @@ Last Updated: BN1x2 Save Load – Snapshot 44 Augs
 
 📦 PLAYER SNAPSHOT
 
-Augmentations Installed: 69 (incl. 30x NeuroFlux Governor)
-
-Major Augs: Signal Processors I–V, DataJack, The Black Hand, Embedded Netburner Core V2, SoA suite
-
-Money Available: ≈ 65.7 trillion
-
-Home RAM: 1,048,576 GB (1 PB)
-
-Purchased Servers: 25 (mixed naming, latest use timestamp-based names)
-
-High-Tier Corps Rooted: ECorp, MegaCorp, NWO, KuaiGong, FulcrumTech, etc.
-
 📚 CANONICAL SOURCES
 
 API Reference: https://github.com/bitburner-official/bitburner-src/tree/dev/markdown
@@ -53,21 +41,9 @@ Avoid all deprecated functions (e.g., ns.nFormat)
 
 🧰 Day Zero Design Goals
 
-Prioritize beating the game through active gameplay, not full-code automation
-
-Optimize earliest moments of a new node (first aug ASAP)
-
-Favor scripts that are readable and supportive, not dominant
-
 All core scripts are provisional — nothing is sacred
 
-Emphasize manual faction work, contracts, Hacknet efficiency
-
 🧠 Human-Centric Notes
-
-Player is new to coding and will absorb passively while playing
-
-Script design should be accessible, non-intimidating, and helpful without overreaching
 
 Robot will generate supporting tools, handle constraints, and reduce friction
 
